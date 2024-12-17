@@ -63,7 +63,7 @@ body::-webkit-scrollbar {display: none;}
 .section1 .swiper .control .video_control .play_btn {display: none;}
 
 /*section2*/
-.section2 {display: flex; flex-direction: column; align-items: center; position: relative; height: 2818px; background: url('../res/img/section02_bg.png')no-repeat center center / cover;}
+.section2 {display: flex; flex-direction: column; align-items: center; position: relative; height: 2818px; background: url('../img/section02_bg.png')no-repeat center center / cover;}
 .section2 .section2__top {position: absolute; top: 50%; transform: translateY(-50%); color: #fff; text-align: center;}
 .section2 .section2__top .text .text1__1 .text__main {margin-bottom: 23px; font-size: 24px; font-weight: 400; letter-spacing: -3px;}
 .section2 .section2__top .text .text1__2 {display: flex; justify-content: center; align-items: center; position: relative; margin: 40px 0;}
