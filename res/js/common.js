@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     setTimeout(function () {
         window.scrollTo(0, 0);
-    }, 300);
+    }, 3000);
 });
 
 
