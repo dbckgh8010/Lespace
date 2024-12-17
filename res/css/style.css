@@ -21,8 +21,10 @@ body::-webkit-scrollbar {display: none;}
 .header .wrap_header .nav_list2 .sns_list .lang .lang_list {display: none; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 120px; padding-top: 60px;}
 .header .wrap_header .nav_list2 .sns_list .lang .lang_list .lang_link {padding: 20px 0; overflow-y: auto; background-color: #ffffffc2; border: 1px solid rgb(204, 204, 204); font-size: 16px; font-weight: 600;}
 .header .wrap_header .nav_list2 .sns_list .lang .lang_list .lang_link li {padding: 0 20px; line-height: 38px;}
+.header .wrap_header .nav_list2 .lang .kor a {color: #CA6fff}
 .header .wrap_header .nav_list2 .ticket a {display: flex; align-items: center; height: 40px; padding: 0 24px; border: 1px solid #fff; border-radius: 35px; color: #fff;}
 /*이벤트*/
+.header .wrap_header .nav_list2 .lang li a:hover {text-decoration: underline;}
 .header .wrap_header .nav_list1 .list:hover .link {text-decoration: underline #fff;}
 .header .wrap_header .nav_list1 .list:hover .sub_list {display: block;}
 .header .wrap_header .nav_list2 .sns_list .lang:hover .lang_list {display: block;}
