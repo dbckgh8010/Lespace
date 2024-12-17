@@ -26,6 +26,7 @@ body::-webkit-scrollbar {display: none;}
 .header .wrap_header .nav_list1 .list:hover .link {text-decoration: underline #fff;}
 .header .wrap_header .nav_list1 .list:hover .sub_list {display: block;}
 .header .wrap_header .nav_list2 .sns_list .lang:hover .lang_list {display: block;}
+.header .wrap_header .nav_list2 .ticket:hover a {background-color: #fff; color: #000;}
 
 /*로고 이미지*/
 .intro {display: flex; position: fixed; top: 50%; left: 50%; transform: translateX(-50%); width: 232px; z-index: 10;}
