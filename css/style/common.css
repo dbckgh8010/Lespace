@@ -44,7 +44,7 @@ body::-webkit-scrollbar {display: none;}
 }
 
 /*section_intro*/
-.section_intro {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: url('/img/main_section_bg.png') no-repeat center / cover; z-index: 3;}
+.section_intro {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: url('../img/main_section_bg.png') no-repeat center / cover; z-index: 3;}
 
 /*section1*/
 .section1 .swiper .swiper-wrapper {position: relative;}
@@ -63,7 +63,7 @@ body::-webkit-scrollbar {display: none;}
 .section1 .swiper .control .video_control .play_btn {display: none;}
 
 /*section2*/
-.section2 {display: flex; flex-direction: column; align-items: center; position: relative; height: 2818px; background: url('/img/section02_bg.png')no-repeat center center / cover;}
+.section2 {display: flex; flex-direction: column; align-items: center; position: relative; height: 2818px; background: url('../img/section02_bg.png')no-repeat center center / cover;}
 .section2 .section2__top {position: absolute; top: 50%; transform: translateY(-50%); color: #fff; text-align: center;}
 .section2 .section2__top .text .text1__1 .text__main {margin-bottom: 23px; font-size: 24px; font-weight: 400; letter-spacing: -3px;}
 .section2 .section2__top .text .text1__2 {display: flex; justify-content: center; align-items: center; position: relative; margin: 40px 0;}
@@ -99,13 +99,13 @@ body::-webkit-scrollbar {display: none;}
 .section3 .banner__ticket .ticket__btn {display: flex; align-items: center; justify-content: center; width: 260px; height: 60px; border: 1px solid #fff; border-radius: 10px; font-size: 22px; font-weight: 900; color: #fff;}
 .section3 .banner__ticket .ticket__btn .ticket__icon {margin-right: 6px;}
 .section3 .banner__ticket .ticket__btn:hover {background-color: #fff; color: #000;}
-.section3 .banner__ticket .ticket__btn:hover .ticket__icon {content: url('/img/ic_ticket_hover.png');}
+.section3 .banner__ticket .ticket__btn:hover .ticket__icon {content: url('../img/ic_ticket_hover.png');}
 
 /*section3 이미지*/
-.section3 .banner__info .cosmos {background: url('/img/cosmo_station.png') no-repeat center / cover;}
-.section3 .banner__info .new_land {background: url('/img/new_land_banner2.jpg') no-repeat center / cover;}
-.section3 .banner__info .new_creature {background: url('/img/new_creature_banner.jpg') no-repeat center / cover;}
-.section3 .banner__info .space_exploration {background: url('/img/space_exploration_banner2.jpg') no-repeat center / cover;}
+.section3 .banner__info .cosmos {background: url('../img/cosmo_station.png') no-repeat center / cover;}
+.section3 .banner__info .new_land {background: url('../img/new_land_banner2.jpg') no-repeat center / cover;}
+.section3 .banner__info .new_creature {background: url('../img/new_creature_banner.jpg') no-repeat center / cover;}
+.section3 .banner__info .space_exploration {background: url('../img/space_exploration_banner2.jpg') no-repeat center / cover;}
 
 
 /*footer*/
